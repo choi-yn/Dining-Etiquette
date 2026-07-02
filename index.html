@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>식사예절 OX 퀴즈</title>
+  <link rel="stylesheet" href="script.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">식사예절 OX 퀴즈</h1>
+    <div id="start-area" class="hidden">
+      <button id="start-btn">시작하기</button>
+    </div>
+    <div id="quiz-area" class="hidden">
+      <div id="progress">1 / 9</div>
+      <img id="quiz-image" src="image/1.png" alt="문제 그림" class="quiz-image">
+      <audio id="quiz-audio" src="sound/eti_finish_audio_1.mp3"></audio>
+      <div id="ox-buttons" class="ox-buttons">
+        <button id="btn-o" class="ox-btn o">O</button>
+        <button id="btn-x" class="ox-btn x">X</button>
+      </div>
+    </div>
+    <div id="result-area" class="hidden">
+      <div id="result-message"></div>
+      <button id="restart-btn">다시 시작하기</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
